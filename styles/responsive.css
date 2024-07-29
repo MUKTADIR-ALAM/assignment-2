@@ -1,0 +1,77 @@
+@media screen and (max-width: 600px){
+  .fa-solid{
+    display: block;
+  }
+  .navbar-container{
+    display: none;
+  }
+  .round-card-container, .hero-container , .motivation , .bmi-chart-calc-section{
+flex-direction: column;
+  }
+
+  .hero-content, .hero-img-container ,.hero-container{
+    width: 100%;
+  }
+  .nav-hero-background-container{
+    height: 60rem;
+  }
+  .hero-container{
+height: 53rem;
+  }
+
+  /* change your habit section */
+  .change-habit-section{
+    width: 100%;
+  }
+
+  /* motivation content */
+  .motivation-content {
+    width: 100%;
+    height: 50%;
+  }
+  .motivation-img{
+    width: 95%;
+    height: 50%;
+  }
+
+  .motivation{
+    height: 455px;
+  }
+  
+  /* our team styles */
+  .our-team{
+    width: 100%;
+    grid-template-columns: repeat(1,1fr);
+    height: 2800px;
+  }
+
+  #team-card-1{
+    background-image: url('../images/trainer1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    }
+
+/* bmi styles */
+.bmi-chart-calc-section{
+  height: 800px;
+}
+
+/* table styles */
+.table-chart {
+  width: 64%;
+}
+
+  /* footer styles */
+  .footer-card-container{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  footer{
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-card-container{
+    height: 37rem;
+  }
+}
