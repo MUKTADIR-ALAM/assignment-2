@@ -123,6 +123,54 @@ p {
   width: 50%;
 }
 
+.hero-img-badge1 , .hero-img-badge2{
+  width: 193px;
+height: 98px;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+backdrop-filter: blur(20px);
+background: rgba(255, 255, 255, 0.1);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+/* text-align: start; */
+}
+
+.hero-img-badge1{
+  position: relative;
+  top: 107px;
+  left: 400px;
+
+}
+
+.hero-img-badge2{
+  flex-direction: row;
+  gap: 12px;
+  position: relative;
+  top: 302px;
+  left: 71px;
+}
+
+
+.hero-img-badge1 h1, .hero-img-badge2 h1{
+  width: 153px;
+  font-size: 40px;
+font-weight: 900;
+}
+.hero-img-badge2 h1{
+  width: 100px;
+  font-size: 24px;
+}
+
+
+.ellipse{
+  width: 40px;
+  height: 40px;
+  background: rgb(230, 83, 60);
+  border-radius: 50%;
+}
+
 /* change habits styles */
 .change-habit-section {
   width: 80%;

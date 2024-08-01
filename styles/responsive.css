@@ -1,26 +1,50 @@
-@media screen and (max-width: 600px){
-  .fa-solid{
+@media screen and (max-width: 600px) {
+  .fa-solid {
     display: block;
   }
-  .navbar-container{
+  .navbar-container {
     display: none;
   }
-  .round-card-container, .hero-container , .motivation , .bmi-chart-calc-section{
-flex-direction: column;
+  .round-card-container,
+  .hero-container,
+  .motivation,
+  .bmi-chart-calc-section {
+    flex-direction: column;
   }
 
-  .hero-content, .hero-img-container ,.hero-container{
+  .hero-content,
+  .hero-img-container,
+  .hero-container {
     width: 100%;
   }
-  .nav-hero-background-container{
+  .nav-hero-background-container {
     height: 60rem;
   }
-  .hero-container{
-height: 53rem;
+  .hero-container {
+    height: 53rem;
+  }
+
+  /* hero section */
+  .hero-img-badge1,
+  .hero-img-badge2 {
+    width: 170px;
+    height: 85px;
+  }
+
+  .hero-img-badge1 {
+    position: relative;
+    top: 108px;
+    left: 153px;
+  }
+
+  .hero-img-badge2 {
+    position: relative;
+    top: 214px;
+    left: 3px;
   }
 
   /* change your habit section */
-  .change-habit-section{
+  .change-habit-section {
     width: 100%;
   }
 
@@ -29,49 +53,49 @@ height: 53rem;
     width: 100%;
     height: 50%;
   }
-  .motivation-img{
+  .motivation-img {
     width: 95%;
     height: 50%;
   }
 
-  .motivation{
+  .motivation {
     height: 455px;
   }
-  
+
   /* our team styles */
-  .our-team{
+  .our-team {
     width: 100%;
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: repeat(1, 1fr);
     height: 2800px;
   }
 
-  #team-card-1{
-    background-image: url('../images/trainer1.png');
+  #team-card-1 {
+    background-image: url("../images/trainer1.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    }
+  }
 
-/* bmi styles */
-.bmi-chart-calc-section{
-  height: 800px;
-}
+  /* bmi styles */
+  .bmi-chart-calc-section {
+    height: 800px;
+  }
 
-/* table styles */
-.table-chart {
-  width: 64%;
-}
+  /* table styles */
+  .table-chart {
+    width: 64%;
+  }
 
   /* footer styles */
-  .footer-card-container{
+  .footer-card-container {
     grid-template-columns: repeat(1, 1fr);
   }
-  footer{
+  footer {
     height: 650px;
     display: flex;
     flex-direction: column;
   }
-  .footer-card-container{
+  .footer-card-container {
     height: 37rem;
   }
 }
