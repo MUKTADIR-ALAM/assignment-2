@@ -44,7 +44,7 @@ p {
   height: 44rem;
   padding: 1px;
   border: 2px solid red;
-  background: linear-gradient(black, rgba(128, 128, 128, 0.39), black);
+  background: linear-gradient(black, rgba(128, 128, 128, 0.247), black);
 }
 
 /* navbar styles */
