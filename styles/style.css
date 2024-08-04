@@ -209,6 +209,7 @@ font-weight: 900;
 .change-habit-section {
   width: 80%;
   margin: 0 auto;
+  margin-bottom: 100px;
 }
 
 .round-card-heading-content {
@@ -254,6 +255,7 @@ font-weight: 900;
   background-color: rgba(160, 160, 160, 0.075);
   display: flex;
   align-items: center;
+  margin-bottom: 70px;
 }
 
 .motivation-content {
@@ -278,6 +280,9 @@ font-weight: 900;
 
 
 /* BMI section */
+.bmi-calculator{
+  margin-top: 80px ;
+}
 .bmi-chart-calc-section{
   display: flex;
   justify-content: space-evenly;
