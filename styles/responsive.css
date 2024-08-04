@@ -109,6 +109,10 @@
     height: 495px;
   }
 
+  .motivation-content h1{
+    margin-top: 20px;
+    }
+
   /* our team styles */
   .our-team {
     width: 100%;

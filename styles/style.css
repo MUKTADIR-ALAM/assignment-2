@@ -380,8 +380,14 @@ color: black;
   width: 100%;
 }
 
+.product-card h4 ,.product-card p{
+ padding-left: 6px;
+}
 
-
+.product-card button{
+  margin-left: 5px;
+  color: white;
+}
 
 .product-card h4{
   margin: 10px 0px;
