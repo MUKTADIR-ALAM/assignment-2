@@ -12,6 +12,16 @@
   margin-top: 58px;
 }
 
+.team-heading{
+  margin: 80px auto;
+  text-align: center;
+}
+
+.team-heading h1{
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
 .team-card {
   width: 95%;
   height: 95%;
@@ -21,7 +31,7 @@
   display: flex;
   flex-direction: column;
   justify-content: end;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.3);
   background-blend-mode: overlay;
   text-align: left;
 }

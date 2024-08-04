@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import url('https://fonts.cdnfonts.com/css/miama');
 
 .hide {
   display: none;
@@ -84,6 +85,9 @@ p {
 
 /* hero section style */
 
+
+
+
 .hero-container {
   width: 80%;
   height: 80%;
@@ -103,6 +107,27 @@ p {
   gap: 20px;
 }
 
+.hero-content > h1{
+  font-size: 71px;
+font-weight: 900;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.miama{
+  /* Font: Miama
+font-weight: 400
+Font size: 78pxpx
+Row height: 1px
+Letter spacing: 0%
+Align: Align left */
+font-family: 'Miama', sans-serif;
+font-weight: 300;
+font-size: 137px;
+                                                
+                                                
+}
 
 .btn-transparent {
   background-color: transparent;
@@ -139,8 +164,8 @@ align-items: center;
 
 .hero-img-badge1{
   position: relative;
-  top: 107px;
-  left: 400px;
+  top: 31%;
+  left: 46%;
 
 }
 
@@ -148,8 +173,8 @@ align-items: center;
   flex-direction: row;
   gap: 12px;
   position: relative;
-  top: 302px;
-  left: 71px;
+  top: 50%;
+  left: 6%;
 }
 
 
@@ -164,13 +189,22 @@ font-weight: 900;
 }
 
 
-.ellipse{
+/* .ellipse{
   width: 40px;
   height: 40px;
   background: rgb(230, 83, 60);
   border-radius: 50%;
+} */
+#triangle-right {
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-left: 100px solid rgb(255, 255, 255);
+  border-bottom: 50px solid transparent;
+  z-index: 1;
+  height: 10px;
+  width: 10px;
 }
-
 /* change habits styles */
 .change-habit-section {
   width: 80%;
@@ -317,7 +351,46 @@ color: black;
 
 /* bmi input section end */
 
+/* shop section start */
+.shop-heading{
+  text-align: center;
+  margin: 40px 0;
+}
 
+.shop-products{
+  width: 90%;
+  border: 2px solid green;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4 ,1fr);
+  gap: 20px;
+  justify-items: center;
+}
+
+.product-card{
+  height: 300px;
+  width: 300px;
+  border: 2px solid blue;
+  background-color: rgba(255, 255, 255, 0.063);
+}
+
+.product-card img{
+  width: 100%;
+}
+
+
+
+
+.product-card h4{
+  margin: 10px 0px;
+}
+.shop-btn{
+  background-color: green;
+  padding: 5px 20px;
+  margin-top: 5px;
+  border-radius: 10px;
+}
+/* shop section end */
 
 /* footer  */
 footer {
