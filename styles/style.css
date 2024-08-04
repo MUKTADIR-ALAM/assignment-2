@@ -358,6 +358,85 @@ color: black;
 
 /* bmi input section end */
 
+
+
+/* our team section start */
+
+.our-team {
+  width: 80%;
+  background-color: rgba(160, 160, 160, 0.253);
+  /* border: 2px solid red; */
+  margin: 0 auto;
+  height: 700px;
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin-bottom: 58px;
+  margin-top: 58px;
+}
+
+.team-heading{
+  margin: 80px auto;
+  text-align: center;
+}
+
+.team-heading h1{
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.team-card {
+  width: 95%;
+  height: 95%;
+  border-radius: 20px;
+  /* border: 2px solid blue; */
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  background-color: rgba(0, 0, 0, 0.3);
+  background-blend-mode: overlay;
+  text-align: left;
+}
+
+#team-card-1 {
+  background-image: url("../images/trainer1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#team-card-2 {
+  background-image: url("../images/trainer2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#team-card-3 {
+  background-image: url("../images/trainer3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#team-card-4 {
+  background-image: url("../images/trainer4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#team-card-5 {
+  background-image: url("../images/trainer5.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#team-card-6 {
+  background-image: url("../images/trainer6.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.trainer-text {
+  padding: 12px;
+}
+
+/* our team section end */
+
 /* shop section start */
 .shop-heading{
   text-align: center;
@@ -440,3 +519,178 @@ padding-bottom: 10px;
 footer p{
   margin: 20px 0;
 }
+
+
+/* reponsive css start */
+
+@media screen and (max-width: 600px) {
+  .fa-solid {
+    display: block;
+  }
+  .navbar-container {
+    display: none;
+  }
+  .round-card-container,
+  .hero-container,
+  .motivation,
+  .bmi-chart-calc-section {
+    flex-direction: column;
+  }
+
+  .hero-content,
+  .hero-img-container,
+  .hero-container {
+    width: 100%;
+  }
+  .hero-content > h1{
+    font-size: 53px;
+  }
+  .nav-hero-background-container {
+    height: 60rem;
+  }
+  .hero-container {
+    height: 53rem;
+  }
+
+  /* hero section */
+
+  .hero-img-badge1,
+  .hero-img-badge2 {
+    width: 140px;
+    height: 65px;
+  }
+
+  .hero-img-badge1 p,
+  .hero-img-badge2 p{
+    font-size: 12px;
+  }
+
+
+  .hero-img-badge1 h1, .hero-img-badge2 h1{
+    width: 120px;
+    font-size: 30px;
+    font-weight: 900;
+  }
+  .hero-img-badge2 h1{
+    width: 80px;
+    font-size: 24px;
+  }
+  
+  .hero-btn{
+    padding: 12px 16px;
+  }
+  .ellipse{
+    width: 40px;
+    height: 40px;
+    background: rgb(230, 83, 60);
+    border-radius: 50%;
+  }
+
+  /* .hero-img-badge1 {
+    position: relative;
+    top: 100px;
+    left: 182px;
+  }
+
+  .hero-img-badge2 {
+    position: relative;
+    top: 214px;
+    left: 3px;
+  } */
+
+
+
+  /* round card section */
+  .round-card h3{
+   width: 107px;
+   text-align: center;
+   margin: 20px 0;
+  }
+  .round-card p{
+   width: 200px;
+   text-align: center;
+   /* margin: auto; */
+  }
+
+
+
+
+  /* change your habit section */
+  .change-habit-section {
+    width: 100%;
+  }
+
+  /* motivation content */
+  .motivation-content {
+    width: 100%;
+    height: 50%;
+  }
+  .motivation-img {
+    width: 95%;
+    height: 50%;
+  }
+
+  .motivation {
+    height: 495px;
+  }
+
+  .motivation-content h1{
+    margin-top: 20px;
+    }
+
+  /* our team styles */
+  .our-team {
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+    height: 2800px;
+  }
+
+  #team-card-1 {
+    background-image: url("../images/trainer1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .our-team{
+    height: 2000px;
+  }
+
+  /* bmi styles */
+  .bmi-chart-calc-section {
+    height: 800px;
+  }
+
+  /* table styles */
+  .table-chart {
+    width: 80%;
+  }
+
+
+
+  /* shop section */
+  .shop-products{
+    grid-template-columns: repeat(1 ,1fr);
+  }
+
+.product-card{
+  width: 284px;
+
+}
+
+  /* footer styles */
+  .footer-card-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  footer {
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-card-container {
+    height: 37rem;
+  }
+
+}
+
+/* reponsive css end */
