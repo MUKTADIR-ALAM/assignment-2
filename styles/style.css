@@ -294,7 +294,9 @@ font-weight: 900;
   margin: 40px auto;
 }
 
-
+#bmi-p{
+  margin: 20px 0px;
+}
 /* bmi table section  */
 
 .table-chart > h1 {
@@ -419,6 +421,9 @@ hr {
 
 .copyright {
   text-align: center;
+  font-size: 15px;
+font-weight: 300;
+padding-bottom: 10px;
 }
 
 footer p{
