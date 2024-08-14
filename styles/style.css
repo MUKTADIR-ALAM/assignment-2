@@ -54,6 +54,9 @@ p {
   margin: auto;
   margin-top: 40px;
 }
+.list-item{
+  cursor: pointer;
+}
 
 .navbar-container {
   display: flex;
